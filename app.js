@@ -112,8 +112,8 @@ app.get('/books', fb.checkSession, fb.getFriendIds, fb.getUserDetails, function(
     }
     
     console.log("=============================== Sort bookCache ===================================");
-    console.log(sort);
-    console.log(bookCache);
+    console.log("===== Sort ======== ".sort);
+    console.log("===== bookCache ======== ".bookCache);
     
     util.addViewingData(req, res, next, bookCache, sort);
 });
