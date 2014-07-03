@@ -111,7 +111,7 @@ app.get('/books', fb.checkSession, fb.getFriendIds, fb.getUserDetails, function(
         sort = bookRatingIdx;
     }
     
-    console.log( "======= Sort ====> " + print_r(sort));
+    console.log( "======= Sort ====> " + sort);
     console.log( "======= bookCache ====> " + JSON.stringify(bookCache) );
    
     
