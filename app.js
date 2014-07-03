@@ -398,6 +398,9 @@ connection.query('SELECT * from book WHERE releaseDate < ? ORDER BY rank LIMIT 2
     }), function(book) {
         bookRatingIdx.push(book.code);
     });
+    
+    console.log("================== WATCHLIB bookDateIdx ===================================================");
+    console.log(bookDateIdx);
 
     console.log("================== WATCHLIB  : Cached " + books.length + " books. =========================");
 });
