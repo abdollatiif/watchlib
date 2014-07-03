@@ -111,9 +111,9 @@ app.get('/books', fb.checkSession, fb.getFriendIds, fb.getUserDetails, function(
         sort = bookRatingIdx;
     }
     
-    console.log("=============================== Sort bookCache ===================================");
-    console.log("===== Sort ======== " + sort);
-    console.log("===== bookCache ======== " + bookCache);
+    console.log( "======= Sort ====> " + print_r(sort));
+    console.log( "======= bookCache ====> " + JSON.stringify(bookCache) );
+   
     
     util.addViewingData(req, res, next, bookCache, sort);
 });
