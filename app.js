@@ -340,8 +340,8 @@ app.post('/viewing', fb.checkSession, fb.getUserDetails, util.fetchOrCreateViewi
 
     if (fbActions.length) {
 
-        console.log("Posting to Facebook Open Graph...", req.session.fb.access_token, fbActions)
-
+        console.log("Posting to Facebook Open Graph...", req.session.fb.access_token, JSON.stringify(fbActions));
+	
         rest.post("https://graph.facebook.com", {
             data: {
                 access_token: req.session.fb.access_token,
