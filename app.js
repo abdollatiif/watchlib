@@ -351,7 +351,8 @@ app.post('/viewing', fb.checkSession, fb.getUserDetails, util.fetchOrCreateViewi
         .on('complete', function(str) {
 
 	    console.log(str);
-            var data = JSON.parse(str);
+            //var data = JSON.parse(str);
+            var data = str;
 
             _.each(data, function(batchResponse) {
 
