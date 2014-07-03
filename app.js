@@ -228,7 +228,7 @@ app.get('/search', fb.checkSession, fb.getFriendIds, fb.getUserDetails, function
 app.get('/viewings', fb.checkSession, fb.getFriendIds, function(req, res) {
 
     // Search for all viewings in the database with a profile ID in the friendIds array
-    connection.query('SELECT * from viewing WHERE profileId IN ?', [req.session.fb.friendIds], function(err, viewings, fields) {
+    connection.query('SELECT * from viewing WHERE profileId IN (?)', [req.session.fb.friendIds], function(err, viewings, fields) {
         if (err) {
             handleError('Could not retrieve list of viewings', viewings, req, res);
             return;
@@ -241,10 +241,10 @@ app.get('/viewings', fb.checkSession, fb.getFriendIds, function(req, res) {
 
 app.get('/activity', fb.checkSession, fb.getFriendIds, function(req, res) {
 	
-	connection.query('SELECT * from viewing WHERE profileId IN ? ORDER BY date LIMIT 20', [req.session.fb.friendIds], function(err, viewings, fields) {
+	connection.query('SELECT * from viewing WHERE profileId IN (?) ORDER BY date LIMIT 20', [req.session.fb.friendIds], function(err, viewings, fields) {
 
         if (err) {
-            handleError('Could not retrieve list of books', runs, req, res);
+            handleError('Could not retrieve list of books', viewings, req, res);
             return;
         }
 
