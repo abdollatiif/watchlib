@@ -110,7 +110,11 @@ app.get('/books', fb.checkSession, fb.getFriendIds, fb.getUserDetails, function(
     } else if (req.query.sort && req.query.sort.match(/Rating/)) {
         sort = bookRatingIdx;
     }
-
+    
+    console.log("=============================== Sort bookCache ===================================");
+    console.log(sort);
+    console.log(bookCache);
+    
     util.addViewingData(req, res, next, bookCache, sort);
 });
 
