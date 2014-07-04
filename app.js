@@ -297,7 +297,7 @@ app.post('/viewing', fb.checkSession, fb.getUserDetails, util.fetchOrCreateViewi
         if (req.viewing.seen) {
             fbActions.push({
                 method: 'POST',
-                relative_url: req.session.fb.user_id + '/' + config.fbNamespace + ':read',
+                relative_url: req.session.fb.user_id + '/' + 'books.reads',
                 body: 'book=http://ism.ma/api.php?method=getBook&code=' + req.body.bookCode
             });
             fbResponses.push({ key: 'seenId', value: 'id' });
