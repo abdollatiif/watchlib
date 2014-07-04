@@ -1,4 +1,4 @@
 watchlib
 ========
 
-Watchlib for consulting books in ISM
+Watchlib for read, comment, share and rate books in 'http://watchlist.herokuapp.com'
