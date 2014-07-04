@@ -204,11 +204,10 @@ app.all('/book/:id', function(req, res, next) {
 
 app.get('/search', fb.checkSession, fb.getFriendIds, fb.getUserDetails, function(req, res, next) {
 	
-    console.log("====== req.query.code =====> " + req.query.code);
     console.log("====== req.query.q =====> " + req.query.q);
 
     rest.get(
-        "http://ism.ma/api.php?method=getBook&code=" + req.query.code + "&q=" + req.query.q
+        "http://ism.ma/api.php?method=getBook&q=" + req.query.q
     )
     .on('complete', function(data) {
 
