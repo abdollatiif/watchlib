@@ -1,10 +1,9 @@
 
-    <meta property="og:title" content="<%= book.title %>" />
+        <meta property="og:title" content="<%= book.title %>" />
 	<meta property="og:type" content="thewatchlib:book" />
 	<meta property="og:image" content="<%= book.largeImage %>" />
 	<meta property="og:url" content="http://ism.ma/api.php?method=getBook&code=<%= book.code %>" />
 	<meta property="og:description" content="<%= book.synopsis|| book.synopsis %>" />
 
-	<meta property="video:release_date" content="<%= book.releaseDate.getFullYear() %>-<%= book.releaseDate.getMonth() + 1 %>-<%= book.releaseDate.getDay() %>" />
-	<meta property="fb:admins" content="61303135" />
+	<meta property="book:release_date" content="<%= book.releaseDate.getFullYear() %>-<%= book.releaseDate.getMonth() + 1 %>-<%= book.releaseDate.getDay() %>" />
 	<meta property="fb:app_id" content="534560986610800" />
