@@ -207,7 +207,7 @@ app.get('/search', fb.checkSession, fb.getFriendIds, fb.getUserDetails, function
     console.log("====== req.query.q =====> " + req.query.q);
 
     rest.get(
-        "http://ism.ma/api.php?method=getBook&q=" + req.query.q
+        "http://ism.ma/api.php?method=searchBook&q=" + req.query.q
     )
     .on('complete', function(data) {
 
