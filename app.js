@@ -280,7 +280,7 @@ app.post('/viewing', fb.checkSession, fb.getUserDetails, util.fetchOrCreateViewi
         if (req.viewing.wantToSee) {
             fbActions.push({
                 method: 'POST',
-                relative_url: req.session.fb.user_id + '/' + config.fbNamespace + ':want_to_watch',
+                relative_url: req.session.fb.user_id + '/' + config.fbNamespace + ':want_to_read',
                 body: 'book=http://ism.ma/api.php?method=getBook&code=' + req.body.bookCode
             });
             fbResponses.push({ key: 'wantToSeeId', value: 'id' });
@@ -297,7 +297,7 @@ app.post('/viewing', fb.checkSession, fb.getUserDetails, util.fetchOrCreateViewi
         if (req.viewing.seen) {
             fbActions.push({
                 method: 'POST',
-                relative_url: req.session.fb.user_id + '/' + config.fbNamespace + ':watch',
+                relative_url: req.session.fb.user_id + '/' + config.fbNamespace + ':read',
                 body: 'book=http://ism.ma/api.php?method=getBook&code=' + req.body.bookCode
             });
             fbResponses.push({ key: 'seenId', value: 'id' });
