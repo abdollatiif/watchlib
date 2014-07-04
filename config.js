@@ -4,5 +4,5 @@ exports.config = {
            client_secret:     '7528778db169b5b70b62a78beeb499a0',
            sessionSecret:     'something12345secret',
                   appUrl:     'http://watchlib.herokuapp.com/',
-             fbNamespace:     'watchlib',
+             fbNamespace:     'thewatchlib',
 };
