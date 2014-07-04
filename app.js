@@ -145,7 +145,7 @@ app.post('/book/:id/share', fb.checkSession, fb.getFriendIds, fb.getUserDetails,
     if (cache) {
 
         var post = {
-            link: 'http://ism.ma/book/' + req.params.id
+            link: 'http://ism.ma/api.php?method=getBook&code=' + req.params.id
         };
 
         if (req.body.message) {
