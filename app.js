@@ -67,7 +67,7 @@ app.get('/', function(req, res) {
         res.sendfile(app.set('appIndex'));
     } 
     else {
-        res.render('web_meta.html.ejs', {
+        res.render('movie_meta.html.ejs', {
             						layout: 'layout.html.ejs',
             						 title: 'Watch Lib',
             						appUrl: '/app.html?deviceType=Phone',
@@ -91,7 +91,7 @@ app.post('/', function(req, res) {
         res.sendfile(app.set('appIndex'));
     } 
     else {
-        res.render('web_meta.html.ejs', {
+        res.render('movie_meta.html.ejs', {
 							layout: 'layout.html.ejs',
 							title: 'Watch List',
 							appUrl: '/app.html?deviceType=Phone',
