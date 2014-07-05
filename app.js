@@ -204,16 +204,16 @@ app.all('/book/:id', function(req, res, next) {
 
 app.get('/search', fb.checkSession, fb.getFriendIds, fb.getUserDetails, function(req, res, next) {
 	
-    console.log("====== req.query.q =====> " + req.query.q);
+    //console.log("====== req.query.q =====> " + req.query.q);
 
     rest.get(
         "http://ism.ma/api.php?method=searchBook&q=" + req.query.q
     )
     .on('complete', function(data) {
 	
-	console.log("========= date =======>" + data);
+	//console.log("========= data =======>" + data);
         var response = util.parseBookResults(data);
-        console.log("========= date =======>" + response);
+        //console.log("========= data =======>" + response);
         util.addViewingData(req, res, next, response.cache, response.idx)
 
     })
