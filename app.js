@@ -212,6 +212,7 @@ app.get('/search', fb.checkSession, fb.getFriendIds, fb.getUserDetails, function
     .on('complete', function(data) {
 
         var response = util.parseBookResults(data);
+        console.log(response);
         util.addViewingData(req, res, next, response.cache, response.idx)
 
     })
