@@ -388,7 +388,7 @@ app.post('/viewing', fb.checkSession, fb.getUserDetails, util.fetchOrCreateViewi
  */
 connection.query('SELECT * from book WHERE releaseDate < ? ORDER BY rank LIMIT 200', [Date.now()], function(err, books, fields) {
     
-    console.log("====== books =====>" + books);
+    console.log(books);
     
     _.each(books, function(book) {
         bookCache[book.code] = book;
