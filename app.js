@@ -213,7 +213,7 @@ app.get('/search', fb.checkSession, fb.getFriendIds, fb.getUserDetails, function
 	
 	//console.log("========= data =======>" + data);
         var response = util.parseBookResults(data);
-        //console.log("========= data =======>" + response);
+        console.log("========= response =======>" + response);
         util.addViewingData(req, res, next, response.cache, response.idx)
 
     })
