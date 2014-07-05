@@ -300,7 +300,7 @@ app.post('/viewing', fb.checkSession, fb.getUserDetails, util.fetchOrCreateViewi
             fbActions.push({
                 method: 'POST',
                 relative_url: req.session.fb.user_id + '/' + 'books.reads',
-                body: 'book=http://ism.ma/api.php?method=getBook&code=' + req.body.bookCode
+                body: 'book=http://watchlib.herokuapp.com/'
             });
             fbResponses.push({ key: 'seenId', value: 'id' });
         } 
