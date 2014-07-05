@@ -210,9 +210,10 @@ app.get('/search', fb.checkSession, fb.getFriendIds, fb.getUserDetails, function
         "http://ism.ma/api.php?method=searchBook&q=" + req.query.q
     )
     .on('complete', function(data) {
-
+	
+	console.log("========= date =======>" + data);
         var response = util.parseBookResults(data);
-        console.log(response);
+        console.log("========= date =======>" + response);
         util.addViewingData(req, res, next, response.cache, response.idx)
 
     })
