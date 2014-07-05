@@ -387,7 +387,9 @@ app.post('/viewing', fb.checkSession, fb.getUserDetails, util.fetchOrCreateViewi
  * When the app first starts, we cache a list of books locally as this will cater for the vast majority of requests.
  */
 connection.query('SELECT * from book WHERE releaseDate < ? ORDER BY rank LIMIT 200', [Date.now()], function(err, books, fields) {
-
+    
+    console.log("====== books =====>" + books);
+    
     _.each(books, function(book) {
         bookCache[book.code] = book;
         bookIdx.push(book.code);
