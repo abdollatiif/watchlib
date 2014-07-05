@@ -283,7 +283,7 @@ app.post('/viewing', fb.checkSession, fb.getUserDetails, util.fetchOrCreateViewi
             fbActions.push({
                 method: 'POST',
                 relative_url: req.session.fb.user_id + '/' + config.fbNamespace + ':want_to_read',
-                body: 'book=http://ism.ma/api.php?method=getBook&code=' + req.body.bookCode
+                body: 'book=http://watchlib.herokuapp.com/'
             });
             fbResponses.push({ key: 'wantToSeeId', value: 'id' });
         } 
