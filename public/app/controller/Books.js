@@ -131,7 +131,7 @@ Ext.define('WL.controller.Books', {
     },
 
     onBookTap: function(record) {
-        WL.app.updateUrl('books/' + record.get('code'));
+        WL.app.updateUrl('book/' + record.get('code'));
         this.showBook(record);
     },
 
