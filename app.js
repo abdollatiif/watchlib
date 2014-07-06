@@ -404,5 +404,5 @@ connection.query('SELECT * from book WHERE releaseDate < ? ORDER BY rank LIMIT 2
         bookRatingIdx.push(book.code);
     });
     
-    console.log("=============> Cached " + books.length + " books.");
+    console.log("=============> Cached " + books.length + " books.=======");
 });
