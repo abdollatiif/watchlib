@@ -140,7 +140,7 @@ Ext.define('WL.view.phone.book.Detail', {
                 }
 
                 if (fireEvent) {
-                    this.fireEvent(fireEvent, WL.currentMovie, el);
+                    this.fireEvent(fireEvent, WL.currentBook, el);
                 }
 			},
             delegate: '.fbActions',
