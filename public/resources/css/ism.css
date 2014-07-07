@@ -5,3 +5,8 @@
 	height: 87px;
 	overflow: hidden;
 }
+
+.expandedMovie .meta {
+	margin-left: 70px;
+	color: #fff;
+}
