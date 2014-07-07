@@ -24,6 +24,7 @@ Ext.define('WL.view.book.SortBar', {
 
 				defaults: {
 		    		xtype: 'button',
+				icon: false,
 		    		flex: 1
 				},
 
