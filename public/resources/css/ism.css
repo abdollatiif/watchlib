@@ -1,0 +1,7 @@
+.expandedMovie .img {
+	border: 1px solid #fff;
+	border-radius: 3px;
+	float: left;
+	height: 87px;
+	overflow: hidden;
+}
