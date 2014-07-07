@@ -125,6 +125,9 @@
 	min-height: 31px;
 }
 
+.x-field:last-child {
+	border-bottom: 0;
+}
 .search input.searchField {
 	padding: 0 .4em;
 	height: 25px;
@@ -140,5 +143,12 @@
 	width: 23px;
 	height: 23px;
 	margin-top: -0.7em;
+}
+
+.x-input-el {
+	padding: .4em;
+	min-height: 25px;
+	border-width: 0;
+	-webkit-appearance: none;
 }
 
