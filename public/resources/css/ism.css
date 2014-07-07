@@ -54,11 +54,25 @@
 	font-size: 70%;
 }
 
-
-.sort {
-	font-family: 'PT Sans Narrow',sans-serif;
-	font-weight: normal;
-	font-size: 22px;
+.x-toolbar.sort .x-button {
+	border: 0;
+	border-right: 1px solid #3d3d3d;
+	color: #222;
+	height: 30px;
+	background: url("../images/bg-sprites.png") repeat-x;
+	background-size: 1px 558px;
+	background-position-x: 0;
+	background-position-y: -432px;
 }
 
+.x-toolbar.sort .x-button .x-button-label {
+	font-family: 'PT Sans Narrow',sans-serif;
+	font-weight: normal;
+	font-size: .8em;
+}
+
+.x-toolbar.sort .x-button.x-button-pressing, .x-toolbar.sort .x-button.x-button-pressed {
+	color: #c5c5c5;
+	background-position-y: -463px;
+}
 
