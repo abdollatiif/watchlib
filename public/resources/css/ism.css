@@ -110,3 +110,35 @@
 	display: none;
 }
 
+.search .x-field-text {
+	margin: 8px;
+	background: url("../images/bg-sprites.png") repeat-x;
+	background-size: 1px 558px;
+	background-position-x: 0;
+	background-position-y: -64px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
+	border-radius: 4px;
+	height: 31px;
+	min-height: 31px;
+}
+
+.search input.searchField {
+	padding: 0 .4em;
+	height: 31px;
+	min-height: 31px;
+	background: 0;
+}
+
+.search .x-clear-icon {
+	background: url("../images/icon-sprites.png") no-repeat;
+	background-size: 219px 76px;
+	background-position-x: -171px;
+	background-position-y: -46px;
+	width: 23px;
+	height: 23px;
+	margin-top: -0.7em;
+}
+
