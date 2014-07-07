@@ -115,7 +115,7 @@
 	background-size: 1px 558px;
 	background-position-x: 0;
 	background-position-y: -864px;
-	height: 45px;
+	height: 48px;
 }
 
 .search .x-field-text {
@@ -177,6 +177,11 @@
 }
 
 .x-toolbar.small {
+	z-index: 3;
+	background: url("../images/bg-sprites.png") repeat-x;
+	background-size: 1px 558px;
 	background-position-x: 0;
 	background-position-y: -990px;
+	height: 51px;
+	margin-bottom: -4px;
 }
