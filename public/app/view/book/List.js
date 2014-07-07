@@ -35,7 +35,7 @@ Ext.define('WL.view.book.List', {
                 cls: 'promo',
                 itemId:'promo-container',
                 docked:'bottom',
-                html: '<span class="logo"></span>Brought to you by Sencha Touch 2.1 <button>Learn More</button>'
+                html: '<span class="logo"></span>Réalisé par Abdollatiif & Mohamed<button>Learn More</button>'
             }
 		],
 

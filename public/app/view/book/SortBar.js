@@ -29,9 +29,9 @@ Ext.define('WL.view.book.SortBar', {
 				},
 
 				items: [
-		    		{ text: 'Popular', pressed: true },
-		    		{ text: 'Rating' },
-		    		{ text: 'Release Date' }
+		    		{ text: 'Populaire', pressed: true },
+		    		{ text: 'Classement' },
+		    		{ text: 'Publication' }
 				]
 			}
 		]

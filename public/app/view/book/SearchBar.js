@@ -19,7 +19,7 @@ Ext.define('WL.view.book.SearchBar', {
         		clearIcon: true,
         		labelWidth: 0,
 		        inputCls: 'searchField',
-        		placeHolder: 'Enter Search Term',
+        		placeHolder: 'Mot à chercher...',
         		id: 'searchField'
         	}
         ]
