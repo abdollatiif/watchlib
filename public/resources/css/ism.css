@@ -55,3 +55,10 @@
 }
 
 
+.x-toolbar.sort .x-button .x-button-label, .x-toolbar.sort .x-button .x-badge, .x-toolbar.sort .x-button .x-hasbadge .x-badge, .x-hasbadge .x-toolbar.sort .x-button .x-badge {
+	font-family: 'PT Sans Narrow',sans-serif;
+	font-weight: normal;
+	font-size: .8em;
+}
+
+
