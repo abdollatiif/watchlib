@@ -110,6 +110,14 @@
 	display: none;
 }
 
+.search {
+	background: url("../images/bg-sprites.png") repeat-x;
+	background-size: 1px 558px;
+	background-position-x: 0;
+	background-position-y: -281px;
+	height: 45px;
+}
+
 .search .x-field-text {
 	margin: 8px;
 	background: url("../images/bg-sprites.png") repeat-x;
@@ -133,6 +141,7 @@
 	height: 25px;
 	min-height: 25px;
 	background: 0;
+	margin-top: -5px;
 }
 
 .search .x-clear-icon {
