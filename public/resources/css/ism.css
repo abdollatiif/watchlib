@@ -175,3 +175,8 @@
 .x-form .x-scroll-container {
 	background-color: transparent; 
 }
+
+.x-toolbar.small {
+	background-position-x: 0;
+	background-position-y: -990px;
+}
