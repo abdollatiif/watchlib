@@ -114,7 +114,7 @@
 	background: url("../images/bg-sprites.png") repeat-x;
 	background-size: 1px 558px;
 	background-position-x: 0;
-	background-position-y: -281px;
+	background-position-y: -120px;
 	height: 45px;
 }
 
@@ -161,3 +161,17 @@
 	-webkit-appearance: none;
 }
 
+.search .x-clear-icon {
+	background: url("../images/icon-sprites.png") no-repeat;
+	background-size: 219px 76px;
+	background-position-x: -171px;
+	background-position-y: -46px;
+	width: 23px;
+	height: 23px;
+	top: 21px;
+	margin-right: -5px;
+}
+
+.x-form .x-scroll-container {
+	background-color: transparent; 
+}
