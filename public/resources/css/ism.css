@@ -179,9 +179,58 @@
 .x-toolbar.small {
 	z-index: 3;
 	background: url("../images/bg-sprites.png") repeat-x;
-	background-size: 1px 558px;
+	/*background-size: 1px 558px;*/
 	background-position-x: 0;
-	background-position-y: -190px;
+	background-position-y: -299px;
 	height: 51px;
-	margin-bottom: -4px;
+	margin-bottom: -5px;
 }
+
+.x-toolbar .x-button {
+	background: url("../images/bg-sprites.png") repeat-x;
+	background-size: 0px 100px;
+	background-position-x: 0;
+	background-position-y: 0;
+}
+
+.x-button.searchBtn {
+	width: 40px;
+	height: 30px;
+	border-radius: 12px;
+	margin-right: 5px;
+}
+
+.fbProfilePic {
+	position: relative;
+	height: 35px;
+	cursor: pointer;
+}
+
+.x-button.friends {
+	width: 45px;
+	height: 30px;
+	border-radius: 0 3px 3px 0;
+}
+
+.sort {
+	background: url("../images/bg-sprites.png") repeat-x;
+	background-position-x: 0px;
+	background-position-y: -300px;
+	height: 48px;
+}
+
+.x-toolbar.small .x-toolbar-inner {
+	margin-top: -1px;
+}
+
+.x-toolbar.small .headerTitle {
+	background: url("../images/icon-sprites.png") no-repeat;
+	background-size: 188px 76px;
+	background-position-x: 10px;
+	background-position-y: -45px;
+	width: 100px;
+	height: 30px;
+	margin: auto;
+}
+
+
