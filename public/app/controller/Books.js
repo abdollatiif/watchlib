@@ -289,7 +289,7 @@ Ext.define('WL.controller.Books', {
     onAbout: function() {
         Ext.create('WL.view.Dialog', {
             msg: [
-                "<p>The Watch Lib was built by Abdollatiif Serhani & Mohamed Regragui with Sencha Touch, a Javascript framework that lets you easily build ",
+                "<p>The Watch Lib was built by Abdollatiif Serhani & Mohammed Regragui with Sencha Touch, a Javascript framework that lets you easily build ",
                 "beautiful mobile apps using Javascript, HTML5 and CSS3.</p>"
             ].join(''),
             buttons: [
