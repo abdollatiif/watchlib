@@ -242,14 +242,4 @@
 	height: 18px;
 }
 
-.promo .logo {
-	background: url("../images/icon-sprites.png") no-repeat;
-	background-size: 218px 77px;
-	background-position-x: -106px;
-	background-position-y: -46px;
-	display: inline-block;
-	margin-right: 8px;
-	vertical-align: middle;
-	width: 17px;
-	height: 24px;
-}
+
