@@ -44,7 +44,7 @@ Ext.define('WL.controller.Books', {
                 change: 'onSearch',
                 clearicontap: 'onSearchClear'
             },
-            'toolbar button[iconCls=books]': {
+            'toolbar button[iconCls=movies]': {
                 tap: 'onBookIconTap'
             },
             'toolbar button[iconCls=friends]': {
