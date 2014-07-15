@@ -120,7 +120,7 @@ Ext.define('WL.view.phone.book.Detail', {
                     }
                 }
             },
-            delegate: '.bookDetail',
+            delegate: '.movieDetail',
             scope: this
         });
 
@@ -152,8 +152,8 @@ Ext.define('WL.view.phone.book.Detail', {
     },
 
     calculateHeights: function() {
-        var element = this.element.down('.bookDetail'),
-            innerElement = this.element.down('.bookDetailInner');
+        var element = this.element.down('.movieDetail'),
+            innerElement = this.element.down('.movieDetailInner');
 
         element.removeCls('ellipsis');
         element.setHeight('');
@@ -165,7 +165,7 @@ Ext.define('WL.view.phone.book.Detail', {
     toggle: function() {
 
     	var me = this,
-            element = this.element.down('.bookDetail'),
+            element = this.element.down('.movieDetail'),
     		isClosed = element.hasCls('ellipsis');
 
     	if (isClosed) {
