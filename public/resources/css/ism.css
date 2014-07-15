@@ -42,6 +42,10 @@
   src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://themes.googleusercontent.com/static/fonts/opensans/v8/k3k702ZOKiLJc3WVjuplzIraN7vELC11_xip9Rz-hMs.woff) format('woff');
 }
 
+body {
+	color: #fff;
+	background-color: #0B3647;
+}
 
 .expandedMovie .img {
 	border: 1px solid #fff;
@@ -291,4 +295,8 @@
 
 .x-layout-card-item {
 	background: #0B3647;
+}
+
+.x-list {
+	background-color: #0B3647;
 }
