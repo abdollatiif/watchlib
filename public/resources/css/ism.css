@@ -281,7 +281,7 @@ body {
 	height: 31px;
 }
 
-.bookDetail.ellipsis .moreArrow {
+.movieDetail.ellipsis .moreArrow {
 	position: absolute;
 	background: url("../images/icon-sprites.png") no-repeat;
 	background-size: 219px 76px;
