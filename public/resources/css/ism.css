@@ -300,3 +300,13 @@ body {
 .x-list {
 	background-color: #0B3647;
 }
+
+.expandedMovie .img img {
+	border-radius: 2px;
+	width: 58px;
+}
+
+.movieDetail .img img {
+	border-radius: 2px;
+	width: 125px;
+}
