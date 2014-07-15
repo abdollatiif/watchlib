@@ -289,13 +289,12 @@ Ext.define('WL.controller.Books', {
     onAbout: function() {
         Ext.create('WL.view.Dialog', {
             msg: [
-                "<p>The Watch Lib was built by Abdollatiif Serhani & Mohammed Regragui with Sencha Touch, a Javascript framework that lets you easily build ",
-                "beautiful mobile apps using Javascript, HTML5 and CSS3.</p>"
+                "<p>The Watch Lib a été réalisé par Abdollatiif Serhani et Mohammed Regragui Avec Sencha Touch et Node.js, des frameworks Javascript qui vous permettent de créer facilement de créer belles applications mobiles à l'aide de Javascript, HTML5 et CSS3</p>"
             ].join(''),
             buttons: [
                 {
                     ui: 'green',
-                    text: 'Visit Sencha Touch Website',
+                    text: 'Visite notre site',
                     handler: function() {
                         window.open("http://www.sencha.com/products/touch", "_blank");
                     }
