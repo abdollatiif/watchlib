@@ -253,3 +253,15 @@
 	width: 17px;
 	height: 24px;
 }
+
+.expandedMovie .moreArrow {
+	background: url("../images/icon-sprites.png") no-repeat;
+	background-size: 219px 76px;
+	background-position-x: -106px;
+	background-position-y: 0;
+	width: 8px;
+	height: 12px;
+	position: absolute;
+	right: 10px;
+	top: 51px;
+}
