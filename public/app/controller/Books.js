@@ -294,7 +294,7 @@ Ext.define('WL.controller.Books', {
             buttons: [
                 {
                     ui: 'green',
-                    text: 'Visite notre site',
+                    text: 'Visitez notre site',
                     handler: function() {
                         window.open("http://www.ism.ma", "_blank");
                     }
