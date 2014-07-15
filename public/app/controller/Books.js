@@ -296,7 +296,7 @@ Ext.define('WL.controller.Books', {
                     ui: 'green',
                     text: 'Visite notre site',
                     handler: function() {
-                        window.open("http://www.sencha.com/products/touch", "_blank");
+                        window.open("http://www.ism.ma", "_blank");
                     }
                 }
             ]
