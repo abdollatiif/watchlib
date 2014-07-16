@@ -289,7 +289,7 @@ Ext.define('WL.controller.Books', {
     onAbout: function() {
         Ext.create('WL.view.Dialog', {
             msg: [
-                "<p>The Watch Lib a été réalisé par Abdollatiif Serhani et Mohammed Regragui Avec Sencha Touch et Node.js, des frameworks Javascript qui vous permettent de créer facilement de créer belles applications mobiles à l'aide de Javascript, HTML5 et CSS3</p>"
+                "<p>The Watch Lib a été réalisé par Abdollatiif Serhani et Mohammed Regragui Avec Sencha Touch et Node.js, des frameworks Javascript qui vous permettent de créer facilement des belles applications mobiles à l'aide de Javascript, HTML5 et CSS3</p>"
             ].join(''),
             buttons: [
                 {
