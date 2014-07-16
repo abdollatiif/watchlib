@@ -311,7 +311,7 @@ Ext.define('WL.controller.Books', {
     onFacebookUnauthorized: function() {
         if (this.mainContainer) {
             Ext.create('WL.view.Dialog', {
-                msg: "Oops! Your Facebook session has expired.",
+                msg: "Oops! votre session facebook a expiré.",
                 buttons: [
                     {
                         ui: 'green',
