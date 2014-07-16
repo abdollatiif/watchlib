@@ -39,7 +39,7 @@ Ext.define('WL.view.phone.book.Detail', {
                         '<tpl if="trailer"><button class="trailer">Bande Annonce</button></tpl>',
                     '</div>',
                     '<div class="actions">',
-                        '<div class="rating"><span>{% if (values.criticRating >= 0) { %}{criticRating}%{% } else { %}?{% } %}</span> on Rotten Tomatoes</div>',
+                        '<div class="rating"><span>{% if (values.criticRating >= 0) { %}{criticRating}%{% } else { %}?{% } %}</span> Taux de vote</div>',
                         '<button class="seen{[values.seen ? " selected" : ""]}">Déjà lu</button>',
                         '{% if (values.seen) { %}',
                             '<button class="thumb up{[values.like ? " selected" : ""]}"><b></b></button>',
