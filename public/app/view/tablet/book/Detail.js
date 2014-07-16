@@ -38,7 +38,7 @@ Ext.define('WL.view.tablet.book.Detail', {
                         '{% } else { %}',
                             '<button class="want{[values.wantToSee ? " selected" : ""]}">J\'aimerais lire</button>',
                         '{% } %}',
-                        '<div class="rating"><span>{% if (values.criticRating >= 0) { %}{criticRating}%{% } else { %}?{% } %}</span> on Rotten Tomatoes</div>',
+                        '<div class="rating"><span>{% if (values.criticRating >= 0) { %}{criticRating}%{% } else { %}?{% } %}</span> Taux de vote</div>',
                     '</div>',
                     '<div class="synopsis">{synopsis}</div>',
                     '<div class="extraInfo">',
