@@ -319,3 +319,9 @@ iframe {
 	left: 111px;
 	position: absolute;
 }
+
+body {
+	background: #FFFFFF;
+	color: #000000;
+	font-family: 'Helvetica Neue', 'Helvetica', sans;
+}
